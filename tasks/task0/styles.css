@@ -1,0 +1,62 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.center {
+  position: absolute;
+  left: 450px;
+}
+
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  left: 400px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  left: 580px;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  right: 400px;
+}
+
+.purple {
+  background-color: purple;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  left: 400px;
+}
+
+.green {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  left: 580px;
+}
+
+.orange {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  right: 400px;
+}

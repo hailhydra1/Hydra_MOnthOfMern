@@ -1,0 +1,32 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.box {
+  width: 200px;
+  height: 20px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+#email,#password {
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+}

@@ -34,7 +34,7 @@
         <br>
         <div class="loginbutton">
             <center>
-            <button id="button" onclick="alert('yay you have logged in!')" style="background-color:green; color: white;">Login</button>
+            <button id="button" style="background-color:green; color: white;">Login</button>
             </center>
         </div>
         <br>
@@ -49,6 +49,17 @@
 </body>
 
 <script>
+
+    var array=[]; 
+
+    document.getElementById("button").onclick=function(){
+        array.push(getElementById("name").value)
+        array.push(getElementById("password").value)
+    }
+
+    console.log(array)
+
+    document.getElementById("button").onclick=alert("yay you have logged in!")
     
 </script>
 
